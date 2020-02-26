@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.mad.kotlin_navigation_drawer.Fragment2">
+<SearchView
+    android:id="@+id/search_bar"
+    android:layout_width="match_parent"
+    android:background="@drawable/shape"
+    android:layout_margin="5dp"
+    android:layout_height="35dp"></SearchView>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_margin="4dp"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
